@@ -21,4 +21,12 @@ describe("calculator", () => {
     const result = calc.add(-1.3334, -4.5);
     expect(result).toEqual(-5.83);
   });
+
+  it("multiply two numbers", () => {
+    const result = calc.multiply(2.333, 3.5);
+  
+    expect(result).toEqual(8.17);
+  });
+  
+
 });

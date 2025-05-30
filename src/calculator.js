@@ -7,6 +7,11 @@ class Calculator {
     let result = x + y;
     return Number(result.toFixed(this.precision));
   }
+
+  multiply(x,y) {
+    let result = x * y;
+    return Number(result.toFixed(this.precision))
+  }
 }
 
 
