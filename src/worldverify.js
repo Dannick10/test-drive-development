@@ -11,13 +11,13 @@ class Worldverify {
   }
 
   countVowels(words) {
-    const vowels = ["a", "e", "i", "o", "u"];
+    const vowels = new Set(["a", "e", "i", "o", "u"]);
     let count = 0;
 
     let treatedWord = this.optionsWord(words);
 
     for (let char of treatedWord) {
-        if (vowels.includes(char)) {
+        if (vowels.has(char)) {
           count++;
         }
       }

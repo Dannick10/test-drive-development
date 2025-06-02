@@ -1,5 +1,5 @@
-let add = require("./calc");
-let Calculator = require("./calculator");
+import { Calculator } from "./calculator";
+
 
 describe("calculator", () => {
   let calc = null;

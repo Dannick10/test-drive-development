@@ -1,4 +1,4 @@
-class Calculator {
+export class Calculator {
   constructor(options) {
     this.precision = options.precision;
   }
@@ -15,4 +15,3 @@ class Calculator {
 }
 
 
-module.exports= Calculator
